@@ -1,0 +1,17 @@
+.sidebar {
+  width: 30%;
+  float: left;
+}
+
+.main-content {
+  width: 70%;
+  float: left;
+}
+
+/* Stack them on mobile */
+@media screen and (max-width: 768px) {
+  .sidebar, .main-content {
+    float: none;
+    width: 100%;
+  }
+}
